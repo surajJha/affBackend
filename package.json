@@ -1,0 +1,39 @@
+{
+  "name": "affbackend",
+  "version": "1.0.0",
+  "description": "backend for affiliate and ads api",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajJha/affBackend.git"
+  },
+  "keywords": [
+    "affiliate",
+    "adsense",
+    "api",
+    "rest"
+  ],
+  "author": "suraj kumar jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajJha/affBackend/issues"
+  },
+  "homepage": "https://github.com/surajJha/affBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cluster": "^0.7.7",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "newrelic": "^1.37.2",
+    "pm2": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0"
+  }
+}
